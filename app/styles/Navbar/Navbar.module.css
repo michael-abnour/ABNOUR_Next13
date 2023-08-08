@@ -1,0 +1,119 @@
+.navbar_link {
+  font-size: 14px !important;
+  line-height: 23px;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: "mainFont2";
+  font-weight: 300;
+  position: relative;
+  transition: 0.3s;
+  margin: 10px 0px;
+  width: fit-content;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .navbar_link {
+    margin: 0px 20px 0px 0px;
+  }
+}
+
+.buttonLet {
+  background: rgb(111, 202, 244);
+  background: linear-gradient(
+    60deg,
+    rgba(111, 202, 244, 1) 5%,
+    rgba(9, 133, 192, 1) 30%,
+    rgba(26, 78, 127, 1) 47%
+  );
+  border: none !important;
+  padding: 12px 30px !important;
+  border-radius: 25px !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 23px;
+  cursor: pointer !important;
+  font-family: "mainFont2";
+  font-weight: 300;
+}
+.navbar_link::after {
+  width: 0%;
+  transition: 0.2s;
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+  height: 3px;
+  border-radius: 10px;
+  /* background-color: #bbb; */
+}
+
+.navbar_link:hover::after {
+  width: 70%;
+  background-color: #bbb;
+}
+
+@media (max-width: 1200px) {
+  .navbar_link::after {
+    bottom: -7px;
+  }
+}
+
+/* .navbar_link:focus {
+  color: #b81f33 !important;
+} */
+
+.activeLink {
+  font-size: 14px !important;
+  line-height: 23px;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: "mainFont2";
+  font-weight: 300;
+  position: relative;
+  margin: 10px 0px;
+  width: fit-content;
+}
+@media (min-width: 1200px) {
+  .activeLink {
+    margin: 0px 20px 0px 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 70%;
+  height: 3px;
+  background-color: #d8f462;
+  border-radius: 10px;
+}
+@media (max-width: 1200px) {
+  .activeLink::after {
+    bottom: -7px;
+    width: 100%;
+  }
+}
+
+.toggler {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.toggler:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.togglerImg {
+}
+
+.offCanvas {
+  background-color: #2a4969 !important;
+}

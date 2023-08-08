@@ -1,0 +1,41 @@
+.footer {
+  background-color: #0a1e33;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer_item_text {
+  color: white;
+  opacity: 50%;
+  /* font-family: Geomanist; */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+
+.social {
+  padding-top: 1rem;
+}
+/* .social img{
+    margin-left:2rem;
+    
+} */
+
+.linkslist li {
+  color: #fff;
+  opacity: 50%;
+  list-style: none;
+  padding-top: 3px;
+}
+
+.linkslist {
+  padding-left: 0px !important;
+}
+
+.linkslist a {
+  text-decoration: none;
+}
